@@ -28,7 +28,7 @@
 		<jar destfile="${cron4j.files.jar}" basedir="${cron4j.dirs.bin}" compress="true" />
 	</target>
 
-	<target name="doc">
+	<!--<target name="doc">
 		<delete dir="${cron4j.dirs.api}" />
 		<mkdir dir="${cron4j.dirs.api}" />
 		<javadoc sourcepath="${cron4j.dirs.src}" destdir="${cron4j.dirs.api}" doctitle="cron4j ${version}" access="protected" author="true" version="true" verbose="true">
