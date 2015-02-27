@@ -8,5 +8,5 @@ node_js:
   - iojs-v1.0.2
 
 script:
-        - pushd cron4j-original && ant rel && popd
-	    - pushd cron4j-mvn && pushd cron4j && mvn clean verify && popd && popd
+    - pushd cron4j-original && ant rel && popd
+    - pushd cron4j-mvn && pushd cron4j && mvn clean verify && popd && popd
